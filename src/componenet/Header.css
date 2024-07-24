@@ -1,0 +1,45 @@
+.header {
+  background-color: var(--p1);
+  padding: 10px 0;
+}
+
+.header .conatiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header a {
+  color: var(--w);
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: all 0.3 ease;
+}
+.header a:hover {
+  opacity: 0;
+}
+
+.header .logo a {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.header .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav-links a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+@media (max-width: 575px) {
+  .header .nav-links li {
+    margin: 0 5px;
+  }
+}
+
+.header .nav-links li:last-child {
+  margin-right: 0;
+}
