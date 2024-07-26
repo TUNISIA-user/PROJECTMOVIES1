@@ -3,7 +3,8 @@ import reducer from "./reducer";
 
 const inititaleState = {
   watchlist: [],
-  watched: [],
+  watched: []
+  
 };
 
 export const GlobalContext = createContext(inititaleState);
