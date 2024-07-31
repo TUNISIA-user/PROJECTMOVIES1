@@ -6,7 +6,7 @@ import Watchlist from "./componenet/Watchlist";
 import Watched from "./componenet/Watched";
 import Add from "./componenet/Add";
 import NAHDI_GAYTH from "./context/GlobalContext";
-
+ 
 const App = () => {
   return (
     <>
