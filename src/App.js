@@ -10,6 +10,7 @@ import NAHDI_GAYTH from "./context/GlobalContext";
 const App = () => {
   return (
     <>
+             
       <Router>
         <NAHDI_GAYTH>
           <Header />

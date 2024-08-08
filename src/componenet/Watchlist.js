@@ -1,7 +1,7 @@
 import React from "react";
 
 const Watchlist = () => {
-  return <>Welcome to watch list </>;
+  return <>My Branch  </>;
 };
 
 export default Watchlist;
