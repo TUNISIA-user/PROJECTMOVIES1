@@ -9,7 +9,7 @@ const inititaleState = {
 
 export const GlobalContext = createContext(inititaleState);
 
-const ContextProvider = (children) => {
+const ContextProvider = ({children}) => {
   const [state, dispatch] = useReducer(reducer, inititaleState);
 
   return (
